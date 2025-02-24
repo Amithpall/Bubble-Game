@@ -28,6 +28,7 @@ html,body{
     height: 100px;
     background-color: #3f691a;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 35px;
@@ -71,5 +72,24 @@ html,body{
 }
 .bubble:hover{
     background-color: #244714;
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#btn button{
+    padding: 10px 30px;
+    background-color: rgb(23, 169, 47);
+    color: white;
+    border-radius: 12px;
+    border: 2px solid rgb(113, 213, 130) ;
+    font-weight: 900;
+    margin-top: 80%;
+}
+#btn button:hover{
+    background-color: rgb(67, 128, 77) ;
     cursor: pointer;
 }
