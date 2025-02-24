@@ -1,4 +1,4 @@
-var timer = 6;
+var timer = 60;
 var score = 0;
 var hitnum = 0;
 
@@ -39,7 +39,7 @@ function changeHit() {
 }
 
 function resetGame() {
-    timer = 6;
+    timer = 60;
     score = 0;
     hitnum = 0;
     document.querySelector('#timer').innerText = timer;
